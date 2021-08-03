@@ -4,10 +4,10 @@ import (
 	"strconv"
 	"time"
 
+	"../database"
 	"../models"
 	"github.com/dgrijalva/jwt-go"
-	"github.com/go-react-jwt-auth/go-auth/database"
-	"github.com/gofiber/fiber/v2"
+	"github.com/gofiber/fiber"
 	"golang.org/x/crypto/bcrypt"
 )
 
